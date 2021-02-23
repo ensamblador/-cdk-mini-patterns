@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-east-1",
+            "eventTime": "2021-02-22T23:35:01.507Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:AROAZDNH5IVITNQCDSR7X:enrique.rodriguez.garrido@gmail.com"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "186.105.37.11"
+            },
+            "responseElements": {
+                "x-amz-request-id": "C7F3F239DF7DF565",
+                "x-amz-id-2": "1FATs+uWMK/M6CCLgfL124uyoIpoW22fQCDtKJLEh9CEFJ/K1A+MismkV1FmSfqv5dBjkrnNfFSu6UN13V9lN6we5SFNMdEV"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "NzNlYzczM2QtMjNjYS00ODYxLTg0YWUtMzE4MDQyM2MwZTZl",
+                "bucket": {
+                    "name": "cdk-lambda-bucketprueba9c0e856b-19va7zqvb6zaa",
+                    "ownerIdentity": {
+                        "principalId": "A1LWY1H3RDL0N"
+                    },
+                    "arn": "arn:aws:s3:::cdk-lambda-bucketprueba9c0e856b-19va7zqvb6zaa"
+                },
+                "object": {
+                    "key": "cognito-apigw-lambda-dynamo.drawio",
+                    "size": 1941,
+                    "eTag": "11da613927ec1a2470c395fcf77e74d4",
+                    "sequencer": "0060343FA849F218B8"
+                }
+            }
+        }
+    ]
+}
